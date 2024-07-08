@@ -1,0 +1,1 @@
+#mplemente o clássico jogo da forca onde o jogador tem que adivinhar a palavra antes que todas as tentativas se esgotem.

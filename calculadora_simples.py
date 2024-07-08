@@ -29,22 +29,22 @@ while True:
 
             if adicao != -1:
 
-                n1 = int(operacao[0: adicao])
-                n2 = int(operacao[adicao+1:]) 
+                n1 = float(operacao[0: adicao])
+                n2 = float(operacao[adicao+1:]) 
                 somar = n1 + n2 
                 print('{} + {} = {}'.format(n1, n2, somar)) 
 
             elif subtracao != -1:
-                n1 = int(operacao[0: subtracao])
-                n2 = int(operacao[subtracao+1:])
+                n1 = float(operacao[0: subtracao])
+                n2 = float(operacao[subtracao+1:])
                 subtrair = n1 - n2
                 print('{} - {} = {}'.format(n1, n2, subtrair))
 
             elif multiplicacao != -1:
-                n1 = int(operacao[0: multiplicacao])
-                n2 = int(operacao[multiplicacao+1:])
+                n1 = float(operacao[0: multiplicacao])
+                n2 = float(operacao[multiplicacao+1:])
                 multiplicar = n1 * n2
-                print('{} * {} = {}'.format(n1, n2, multiplicar))
+                print('{} * {} = {float}'.format(n1, n2, multiplicar))
 
             elif divisao != -1:
                 n1 = float(operacao[0:divisao])
@@ -78,20 +78,20 @@ while True:
 
             if adicao != -1:
 
-                n1 = int(operacao[0: adicao])
-                n2 = int(operacao[adicao+1:]) 
+                n1 = float(operacao[0: adicao])
+                n2 = float(operacao[adicao+1:]) 
                 somar = n1 + n2 
                 print('{} + {} = {}'.format(n1, n2, somar)) 
 
             elif subtracao != -1:
-                n1 = int(operacao[0: subtracao])
-                n2 = int(operacao[subtracao+1:])
+                n1 = float(operacao[0: subtracao])
+                n2 = float(operacao[subtracao+1:])
                 subtrair = n1 - n2
                 print('{} - {} =float {}'.format(n1, n2, subtrair))
 
             elif multiplicacao != -1:
-                n1 = int(operacao[0: multiplicacao])
-                n2 = int(operacao[multiplicacao+1:])
+                n1 = float(operacao[0: multiplicacao])
+                n2 = float(operacao[multiplicacao+1:])
                 multiplicar = n1 * n2
                 print('{} * {} = {}'.format(n1, n2, multiplicar))
 
