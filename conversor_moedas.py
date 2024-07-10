@@ -10,6 +10,7 @@ customtkinter.set_default_color_theme("dark-blue")
 
 # cria e define o tamanho da janela:
 janela = customtkinter.CTk()
+janela.title('Coversor de Moedas - by Pablo Costa')
 janela.geometry("500x500") # difinir o tamanho da janela utilizando o métido geometry
 
 # criar botões, textos e outros elementos
